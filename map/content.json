@@ -336,8 +336,35 @@
               "connections": [
                 {
                   "targetId": "group-multipolar-traps",
-                  "evidence": "Arrow into the bracketed multipolar-traps/race-to-bottom/race-to-market/arms-race cluster.",
-                  "provenance": "interpreted"
+                  "evidence": "",
+                  "provenance": "interpreted",
+                  "assumptions": "Where people expect others to defect, each defects first, and the race locks in. Nobody can afford to hold back while the others do not.\n\nPeople do escape such dilemmas. Trust, reciprocity and a good reputation let groups hold together even when each member could gain by defecting (Ostrom). These work together with institutions, not instead of them: members who monitor each other, sanctions that start mild and grow with repeated offences, and rules made by the people they govern (Ostrom).",
+                  "evidenceBlocks": [
+                    {
+                      "text": "Ostrom's 1998 presidential address to the American Political Science Association reviews experiments and field studies in which people in social dilemmas cooperate far more than the textbook prediction of universal defection. She argues that trust, reciprocity and reputation explain this, and that they are strengthened by institutions that let people see what others do and respond to it.",
+                      "supports": [
+                        2
+                      ],
+                      "links": [
+                        {
+                          "url": "https://doi.org/10.2307/2585925",
+                          "label": "Elinor Ostrom, \"A Behavioral Approach to the Rational Choice Theory of Collective Action\", American Political Science Review 92(1), 1998"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Her 2009 Nobel lecture gives an accessible account of the same argument: communities have governed shared resources through rules they made themselves, without relying only on a central state or on markets.",
+                      "supports": [
+                        2
+                      ],
+                      "links": [
+                        {
+                          "url": "https://www.nobelprize.org/prizes/economic-sciences/2009/ostrom/lecture/",
+                          "label": "Elinor Ostrom, \"Beyond Markets and States: Polycentric Governance of Complex Economic Systems\", Nobel Prize lecture, 2009"
+                        }
+                      ]
+                    }
+                  ]
                 }
               ],
               "provenance": "verbatim"
@@ -473,6 +500,27 @@
                   "targetId": "structure-collective-freeze",
                   "evidence": "Arrow toward \"collective 'freeze'\" in the structures column.",
                   "provenance": "interpreted"
+                },
+                {
+                  "targetId": "group-multipolar-traps",
+                  "assumptions": "Agreeing on rules for a shared problem starts with a shared picture of the problem and the ability to talk about it openly (Ostrom).\n\nWhen a society can no longer tell what is true and discuss it, that step fails, and coordination to escape races becomes harder.",
+                  "evidence": "",
+                  "id": "c-oes2",
+                  "provenance": "interpreted",
+                  "evidenceBlocks": [
+                    {
+                      "text": "Ostrom, Walker and Gardner (1992) found that small groups in a shared-resource experiment cooperated much more when they could communicate. This supports the claim for small groups only. Carrying it over to whole societies, where sensemaking works through media, institutions and large numbers of strangers, is an extension that these studies do not test.",
+                      "supports": [
+                        1
+                      ],
+                      "links": [
+                        {
+                          "url": "https://doi.org/10.2307/1964229",
+                          "label": "Ostrom, Walker & Gardner, \"Covenants With and Without a Sword: Self-Governance Is Possible\", American Political Science Review 86(2), 1992"
+                        }
+                      ]
+                    }
+                  ]
                 }
               ],
               "provenance": "verbatim",
@@ -897,6 +945,40 @@
                   "targetId": "outcome-meaning-crisis",
                   "evidence": "Arrow toward \"meaning crisis\".",
                   "provenance": "interpreted"
+                },
+                {
+                  "targetId": "group-multipolar-traps",
+                  "assumptions": "Communities that can talk to each other, build trust and monitor their own rules can govern shared resources without a central state and without privatisation (Ostrom).\n\nWhere community erodes, that capacity is lost. Actors then have no way to agree on limits or to check that others keep to them, and they fall back into races.",
+                  "evidence": "",
+                  "id": "c-ocm1",
+                  "provenance": "interpreted",
+                  "evidenceBlocks": [
+                    {
+                      "text": "Ostrom's Governing the Commons (1990) compares cases of fishing grounds, pastures, forests and irrigation systems that local users managed for generations, and sets out the conditions under which such self-governance holds, among them clear boundaries, rules made by the users and mutual monitoring.",
+                      "supports": [
+                        1
+                      ],
+                      "links": [
+                        {
+                          "url": "https://doi.org/10.1017/CBO9780511807763",
+                          "label": "Elinor Ostrom, Governing the Commons, Cambridge University Press, 1990"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "In laboratory experiments by Ostrom, Walker and Gardner (1992), groups playing a shared-resource game who could talk to each other cooperated far more than groups who could not, and communication alone sharply raised cooperation. The loss-of-capacity half of the mechanism (paragraph 2) is an inference from this work, not something these studies tested.",
+                      "supports": [
+                        1,
+                        2
+                      ],
+                      "links": [
+                        {
+                          "url": "https://doi.org/10.2307/1964229",
+                          "label": "Ostrom, Walker & Gardner, \"Covenants With and Without a Sword: Self-Governance Is Possible\", American Political Science Review 86(2), 1992"
+                        }
+                      ]
+                    }
+                  ]
                 }
               ],
               "provenance": "verbatim",
