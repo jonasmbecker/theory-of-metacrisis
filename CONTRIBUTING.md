@@ -1,6 +1,8 @@
 # How to suggest a change
 
-Thank you for thinking this through with us. You do not need to know GitHub or code. You need a clear idea and a reason for it.
+Thank you for thinking this through with us. You do not need to know code. You need a clear idea and a reason for it.
+
+Soon you will be able to suggest a change straight from the map in the editor, with no account. Until then, suggestions come in through GitHub, which needs a free account; the last section below explains how.
 
 ## What you can suggest
 
@@ -29,21 +31,21 @@ Every suggestion needs a reason in your own words. For a change to an arrow or a
 - Good: your professional experience, described honestly as experience ("in my practice as a therapist, I see...").
 - Not enough: "it seems obvious" or "everyone knows".
 
-If you are less than certain, say so. The map records a confidence for every arrow, and an honest 40 is more useful than a confident 90.
+If you are less than certain, say so. An arrow can carry a confidence from 0 to 100, and an honest 40 is more useful than a confident 90.
 
 ## What happens next
 
-An automatic check makes sure the files are well formed (no broken links to cards, web addresses start with http or https, every card has a position). A person then reads your suggestion and either merges it, asks a question, or declines it with a reason. Declined does not mean wrong: it can mean the evidence is not yet there, or the card is not the right place.
+An automatic check makes sure the files are well formed (no broken links to cards, web addresses start with http or https, every card has a position). A person then reads your suggestion and either accepts it into the map, asks you a question, or declines it with a reason. Declined does not mean wrong: it can mean the evidence is not yet there, or the card is not the right place.
 
 Please be patient. This is one person's volunteer time for now.
 
 ## Who decides
 
-Jonas Becker (@jonasmbecker) is the only maintainer at launch and makes the final call on every suggestion. More maintainers will be named here as people join; until then, nothing is merged without his review.
+Jonas Becker (@jonasmbecker) is the only maintainer at launch and makes the final call on every suggestion. More maintainers will be named here as people join; until then, nothing is accepted without his review.
 
 ## Using GitHub directly
 
-Edit `map/content.json` for changes to the theory and open a pull request. Leave `map/layout.json` alone unless you are moving cards. Run `node scripts/validate-map.mjs` before you submit. Do not change file names or the order of fields.
+Edit `map/content.json` for changes to the theory and open a pull request (GitHub's name for a suggested change). Leave `map/layout.json` alone unless you are moving cards. If you can, run `node scripts/validate-map.mjs` before you submit; the same check also runs by itself on every pull request. Do not change file names or the order of fields.
 
 ## Being kind
 
