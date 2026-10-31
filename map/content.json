@@ -774,6 +774,13 @@
                   "targetId": "structure-collective-freeze",
                   "evidence": "Arrow on the board (approved row).",
                   "provenance": "interpreted"
+                },
+                {
+                  "targetId": "structure-collective-freeze",
+                  "confidence": 50,
+                  "assumptions": "",
+                  "evidence": "",
+                  "id": "c-e2e-test"
                 }
               ],
               "provenance": "verbatim",
