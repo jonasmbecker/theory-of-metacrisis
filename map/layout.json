@@ -1,0 +1,240 @@
+{
+  "cards": {
+    "annotation-mate-health-crisis": {
+      "width": 330,
+      "yPosition": 200
+    },
+    "driver-arms-race": {
+      "width": 300,
+      "yPosition": 792
+    },
+    "driver-collective-disempowerment": {
+      "width": 300,
+      "yPosition": 120
+    },
+    "driver-consumerism": {
+      "width": 300,
+      "yPosition": 992
+    },
+    "driver-erosion-sensemaking": {
+      "width": 300,
+      "yPosition": 0
+    },
+    "driver-extractivism": {
+      "width": 300,
+      "yPosition": 1344
+    },
+    "driver-hyper-agents-ai": {
+      "width": 300,
+      "yPosition": 1472
+    },
+    "driver-individualism": {
+      "width": 300,
+      "yPosition": 1112
+    },
+    "driver-lacking-willingness-change": {
+      "width": 300,
+      "yPosition": 368
+    },
+    "driver-neoliberal-capitalism": {
+      "width": 300,
+      "yPosition": 1224
+    },
+    "driver-patriarchy-sexism": {
+      "width": 300,
+      "yPosition": 1600
+    },
+    "driver-race-to-bottom": {
+      "width": 300,
+      "yPosition": 560
+    },
+    "driver-race-to-market": {
+      "width": 300,
+      "yPosition": 680
+    },
+    "driver-racism-colonialism": {
+      "width": 300,
+      "yPosition": 248
+    },
+    "group-connection-substrategies": {
+      "width": 232,
+      "yPosition": 216
+    },
+    "group-consumerism": {
+      "width": 300,
+      "yPosition": 992
+    },
+    "group-multipolar-traps": {
+      "width": 300,
+      "yPosition": 560
+    },
+    "need-brown-attunement": {
+      "width": 232,
+      "yPosition": 520
+    },
+    "need-brown-comfort-soothing": {
+      "width": 232,
+      "yPosition": 640
+    },
+    "need-brown-expressed-delight": {
+      "width": 232,
+      "yPosition": 1432
+    },
+    "need-brown-felt-safety": {
+      "width": 232,
+      "yPosition": 152
+    },
+    "need-brown-support-explore": {
+      "width": 232,
+      "yPosition": 904
+    },
+    "need-narm-attunement": {
+      "width": 232,
+      "yPosition": 520
+    },
+    "need-narm-autonomy": {
+      "width": 232,
+      "yPosition": 904
+    },
+    "need-narm-love-sexuality": {
+      "width": 232,
+      "yPosition": 1448
+    },
+    "need-narm-spiritualizing": {
+      "width": 232,
+      "yPosition": 216
+    },
+    "need-narm-thinking": {
+      "width": 232,
+      "yPosition": 336
+    },
+    "need-narm-trust": {
+      "width": 232,
+      "yPosition": 640
+    },
+    "outcome-climate-breakdown": {
+      "width": 300,
+      "yPosition": 680
+    },
+    "outcome-ecocide": {
+      "width": 300,
+      "yPosition": 1184
+    },
+    "outcome-extinction-risk-tech": {
+      "width": 300,
+      "yPosition": 448
+    },
+    "outcome-great-power-war": {
+      "width": 300,
+      "yPosition": 200
+    },
+    "outcome-meaning-crisis": {
+      "width": 300,
+      "yPosition": 1056
+    },
+    "outcome-pollution": {
+      "width": 300,
+      "yPosition": 808
+    },
+    "outcome-resource-depletion": {
+      "width": 300,
+      "yPosition": 928
+    },
+    "outcome-sexual-assault": {
+      "width": 300,
+      "yPosition": 1600
+    },
+    "strategy-compulsive-soothing": {
+      "width": 330,
+      "yPosition": 704
+    },
+    "strategy-control-supremacy": {
+      "width": 330,
+      "yPosition": 336
+    },
+    "strategy-craving-power": {
+      "width": 330,
+      "yPosition": 584
+    },
+    "strategy-craving-seen": {
+      "width": 330,
+      "yPosition": 456
+    },
+    "strategy-fear-dependence-separation": {
+      "width": 330,
+      "yPosition": 976
+    },
+    "strategy-greed-more": {
+      "width": 330,
+      "yPosition": 856
+    },
+    "strategy-hunting-sexual-attraction": {
+      "width": 330,
+      "yPosition": 1600
+    },
+    "strategy-narcissism": {
+      "width": 330,
+      "yPosition": 1480
+    },
+    "strategy-numbing": {
+      "width": 330,
+      "yPosition": 88
+    },
+    "strategy-perform-worth": {
+      "width": 330,
+      "yPosition": 1352
+    },
+    "strategy-scapegoating": {
+      "width": 330,
+      "yPosition": 208
+    },
+    "structure-collective-freeze": {
+      "width": 260,
+      "yPosition": 120
+    },
+    "structure-debt-interest-financial-system": {
+      "width": 260,
+      "yPosition": 544
+    },
+    "structure-dysfunctional-democracy": {
+      "width": 260,
+      "yPosition": 328
+    },
+    "structure-embedded-growth-obligation": {
+      "width": 260,
+      "yPosition": 712
+    },
+    "structure-intergenerational-war-trauma": {
+      "width": 260,
+      "yPosition": 0
+    },
+    "structure-lack-of-wisdom": {
+      "width": 260,
+      "yPosition": 424
+    },
+    "structure-loss-of-community": {
+      "width": 260,
+      "yPosition": 1112
+    },
+    "structure-loss-of-spirituality": {
+      "width": 260,
+      "yPosition": 1232
+    },
+    "structure-marketing": {
+      "width": 260,
+      "yPosition": 1360
+    },
+    "structure-populism-narrative-warfare": {
+      "width": 260,
+      "yPosition": 248
+    },
+    "structure-power-politics": {
+      "width": 260,
+      "yPosition": 984
+    }
+  },
+  "textSize": 1,
+  "curvature": 0.5,
+  "columnPadding": 48,
+  "sectionPadding": 48
+}
