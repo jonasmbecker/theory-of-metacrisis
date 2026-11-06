@@ -24,6 +24,10 @@ const WEB_URL = /^https?:\/\/\S+$/i
 const SLUG = /^(?=.{1,64}$)[a-z0-9]+(-[a-z0-9]+)*$/
 const STATUSES = ['author', 'reconstructed']
 const LAYOUTS = ['stages', 'free']
+// A section drawn as a full-width band under the columns; absent means an ordinary column section.
+const SECTION_DISPLAYS = ['band']
+// A link's optional label (e.g. "Wichtigkeit"), as long as the editor allows.
+const LABEL_MAX = 40
 const isObject = (v) => typeof v === 'object' && v !== null && !Array.isArray(v)
 const isString = (v) => typeof v === 'string'
 
@@ -42,6 +46,9 @@ function checkMap(dir) {
   const nodes = []
   for (const [si, section] of (Array.isArray(content.sections) ? content.sections : []).entries()) {
     if (!isString(section.title)) fail(`section ${si + 1}: "title" must be text`)
+    if (section.display !== undefined && !SECTION_DISPLAYS.includes(section.display)) {
+      fail(`section ${si + 1}: "display" must be one of ${SECTION_DISPLAYS.join(', ')}, or left out`)
+    }
     for (const [ci, column] of (section.columns ?? []).entries()) {
       for (const [ni, node] of (column.nodes ?? []).entries()) {
         nodes.push({ node, where: `section ${si + 1}, column ${ci + 1}, card ${ni + 1}` })
@@ -72,6 +79,9 @@ function checkMap(dir) {
       }
       if (typeof connection.confidence === 'number' && (connection.confidence < 0 || connection.confidence > 100)) {
         fail(`${name}: confidence must be between 0 and 100`)
+      }
+      if (connection.label !== undefined && (!isString(connection.label) || connection.label.length > LABEL_MAX)) {
+        fail(`${name}: the label on the link to "${connection.targetId}" must be text of at most ${LABEL_MAX} characters`)
       }
     }
     if (node.groupId !== undefined && !ids.has(node.groupId)) {
