@@ -3,6 +3,187 @@
   "title": "Theory of the Status Quo: From Unmet Childhood Needs to the Metacrisis",
   "sections": [
     {
+      "title": "Why needs are unmet",
+      "columns": [
+        {
+          "nodes": [
+            {
+              "id": "time-unmet-present",
+              "title": "Unmet in the present",
+              "text": "A need is unmet now, physically or psychologically: violence for safety, isolation for connection. A need unmet in the present becomes important to satisfy. Its links are labelled Wichtigkeit, importance (after Daniel Auf der Mauer, as Jonas understands him).",
+              "color": "#EDE7F6",
+              "connections": [
+                {
+                  "targetId": "need-brown-felt-safety",
+                  "evidence": "Jonas, 2026-11-06 (inbox/theory-repo-notes-2026-11-06.md)",
+                  "provenance": "verbatim",
+                  "label": "Wichtigkeit"
+                },
+                {
+                  "targetId": "need-brown-attunement",
+                  "evidence": "Jonas, 2026-11-06 (inbox/theory-repo-notes-2026-11-06.md)",
+                  "provenance": "verbatim",
+                  "label": "Wichtigkeit"
+                },
+                {
+                  "targetId": "need-brown-comfort-soothing",
+                  "evidence": "Jonas, 2026-11-06 (inbox/theory-repo-notes-2026-11-06.md)",
+                  "provenance": "verbatim",
+                  "label": "Wichtigkeit"
+                },
+                {
+                  "targetId": "need-brown-support-explore",
+                  "evidence": "Jonas, 2026-11-06 (inbox/theory-repo-notes-2026-11-06.md)",
+                  "provenance": "verbatim",
+                  "label": "Wichtigkeit"
+                },
+                {
+                  "targetId": "need-brown-expressed-delight",
+                  "evidence": "Jonas, 2026-11-06 (inbox/theory-repo-notes-2026-11-06.md)",
+                  "provenance": "verbatim",
+                  "label": "Wichtigkeit"
+                },
+                {
+                  "targetId": "group-connection-substrategies",
+                  "evidence": "Jonas, 2026-11-06 (inbox/theory-repo-notes-2026-11-06.md)",
+                  "provenance": "verbatim",
+                  "label": "Wichtigkeit"
+                },
+                {
+                  "targetId": "need-narm-attunement",
+                  "evidence": "Jonas, 2026-11-06 (inbox/theory-repo-notes-2026-11-06.md)",
+                  "provenance": "verbatim",
+                  "label": "Wichtigkeit"
+                },
+                {
+                  "targetId": "need-narm-trust",
+                  "evidence": "Jonas, 2026-11-06 (inbox/theory-repo-notes-2026-11-06.md)",
+                  "provenance": "verbatim",
+                  "label": "Wichtigkeit"
+                },
+                {
+                  "targetId": "need-narm-autonomy",
+                  "evidence": "Jonas, 2026-11-06 (inbox/theory-repo-notes-2026-11-06.md)",
+                  "provenance": "verbatim",
+                  "label": "Wichtigkeit"
+                },
+                {
+                  "targetId": "need-narm-love-sexuality",
+                  "evidence": "Jonas, 2026-11-06 (inbox/theory-repo-notes-2026-11-06.md)",
+                  "provenance": "verbatim",
+                  "label": "Wichtigkeit"
+                }
+              ],
+              "provenance": "verbatim"
+            },
+            {
+              "id": "time-unmet-past",
+              "title": "Unmet in the past (trauma)",
+              "text": "A need was unmet in the past: physically, psychologically, inherited, or just somehow perceived or sensed. That is trauma. The absence becomes chronic and leads to guarding: subtly avoiding or guarding against fulfilling the need, so it is harder to take in. Its links are labelled Dringlichkeit, urgency (after Daniel Auf der Mauer, as Jonas understands him).",
+              "color": "#EDE7F6",
+              "connections": [
+                {
+                  "targetId": "need-brown-felt-safety",
+                  "evidence": "Jonas, 2026-11-06 (inbox/theory-repo-notes-2026-11-06.md)",
+                  "provenance": "verbatim",
+                  "label": "Dringlichkeit"
+                },
+                {
+                  "targetId": "need-brown-attunement",
+                  "evidence": "Jonas, 2026-11-06 (inbox/theory-repo-notes-2026-11-06.md)",
+                  "provenance": "verbatim",
+                  "label": "Dringlichkeit"
+                },
+                {
+                  "targetId": "need-brown-comfort-soothing",
+                  "evidence": "Jonas, 2026-11-06 (inbox/theory-repo-notes-2026-11-06.md)",
+                  "provenance": "verbatim",
+                  "label": "Dringlichkeit"
+                },
+                {
+                  "targetId": "need-brown-support-explore",
+                  "evidence": "Jonas, 2026-11-06 (inbox/theory-repo-notes-2026-11-06.md)",
+                  "provenance": "verbatim",
+                  "label": "Dringlichkeit"
+                },
+                {
+                  "targetId": "need-brown-expressed-delight",
+                  "evidence": "Jonas, 2026-11-06 (inbox/theory-repo-notes-2026-11-06.md)",
+                  "provenance": "verbatim",
+                  "label": "Dringlichkeit"
+                },
+                {
+                  "targetId": "group-connection-substrategies",
+                  "evidence": "Jonas, 2026-11-06 (inbox/theory-repo-notes-2026-11-06.md)",
+                  "provenance": "verbatim",
+                  "label": "Dringlichkeit"
+                },
+                {
+                  "targetId": "need-narm-attunement",
+                  "evidence": "Jonas, 2026-11-06 (inbox/theory-repo-notes-2026-11-06.md)",
+                  "provenance": "verbatim",
+                  "label": "Dringlichkeit"
+                },
+                {
+                  "targetId": "need-narm-trust",
+                  "evidence": "Jonas, 2026-11-06 (inbox/theory-repo-notes-2026-11-06.md)",
+                  "provenance": "verbatim",
+                  "label": "Dringlichkeit"
+                },
+                {
+                  "targetId": "need-narm-autonomy",
+                  "evidence": "Jonas, 2026-11-06 (inbox/theory-repo-notes-2026-11-06.md)",
+                  "provenance": "verbatim",
+                  "label": "Dringlichkeit"
+                },
+                {
+                  "targetId": "need-narm-love-sexuality",
+                  "evidence": "Jonas, 2026-11-06 (inbox/theory-repo-notes-2026-11-06.md)",
+                  "provenance": "verbatim",
+                  "label": "Dringlichkeit"
+                }
+              ],
+              "provenance": "verbatim"
+            },
+            {
+              "id": "structure-intergenerational-war-trauma",
+              "title": "Intergenerational war trauma",
+              "text": "Trauma from war that can be passed on to children and grandchildren through parents' emotional availability, bodily tension and family culture.",
+              "color": "#F0F4C3",
+              "connections": [
+                {
+                  "targetId": "structure-collective-freeze",
+                  "evidence": "Arrow on the board (approved row).",
+                  "provenance": "interpreted"
+                }
+              ],
+              "provenance": "verbatim",
+              "links": [
+                {
+                  "url": "https://en.wikipedia.org/wiki/Intergenerational_trauma",
+                  "label": "Wikipedia: Transgenerational trauma"
+                }
+              ]
+            },
+            {
+              "id": "structure-collective-freeze",
+              "title": "Collective 'freeze'",
+              "text": "A group that is overwhelmed shuts down and fails to act, like the freeze response in an individual. This is an analogy used for modelling, not an established finding.",
+              "color": "#F0F4C3",
+              "connections": [
+                {
+                  "targetId": "structure-dysfunctional-democracy",
+                  "evidence": "Arrow toward \"dysfunctional democracy\" within the same column.",
+                  "provenance": "interpreted"
+                }
+              ],
+              "provenance": "verbatim"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "title": "Unmet Needs (Brown & NARM)",
       "columns": [
         {
@@ -251,6 +432,44 @@
                   "label": "NARM Training Institute: What is NARM?"
                 }
               ]
+            }
+          ]
+        },
+        {
+          "nodes": [
+            {
+              "id": "structure-loss-of-community",
+              "title": "Loss of community",
+              "text": "Fewer lasting ties between people, with less mutual care and fewer shared places.",
+              "color": "#F0F4C3",
+              "connections": [
+                {
+                  "targetId": "outcome-meaning-crisis",
+                  "evidence": "Arrow toward \"meaning crisis\".",
+                  "provenance": "interpreted"
+                }
+              ],
+              "provenance": "verbatim",
+              "links": [
+                {
+                  "url": "https://en.wikipedia.org/wiki/Social_capital",
+                  "label": "Wikipedia: Social capital"
+                }
+              ]
+            },
+            {
+              "id": "structure-loss-of-spirituality",
+              "title": "Loss of spirituality",
+              "text": "The loss of shared practices that gave people meaning, awe and belonging. Vervaeke describes it as the loss of an \"ecology of practices\" that religion once supplied. (Vervaeke)",
+              "color": "#F0F4C3",
+              "connections": [
+                {
+                  "targetId": "outcome-meaning-crisis",
+                  "evidence": "Arrow toward \"meaning crisis\".",
+                  "provenance": "interpreted"
+                }
+              ],
+              "provenance": "verbatim"
             }
           ]
         }
@@ -760,44 +979,166 @@
       ]
     },
     {
-      "title": "Structures & Incentives",
+      "title": "Polycrisis outcomes (civilizational health)",
       "columns": [
         {
           "nodes": [
             {
-              "id": "structure-intergenerational-war-trauma",
-              "title": "Intergenerational war trauma",
-              "text": "Trauma from war that can be passed on to children and grandchildren through parents' emotional availability, bodily tension and family culture.",
-              "color": "#F0F4C3",
+              "id": "outcome-great-power-war",
+              "title": "Great power war / violence / genocide",
+              "text": "Direct war between major powers, with the violence and genocide that accompany it.",
+              "color": "#FCE4EC",
               "connections": [
                 {
-                  "targetId": "structure-collective-freeze",
-                  "evidence": "Arrow on the board (approved row).",
+                  "targetId": "time-unmet-present",
+                  "evidence": "Jonas, 2026-11-06: the polycrisis outcomes, \"like the climate crisis (or if we take a very clear plain thing, as sexual assaults), obviously cause unmet needs and they cause trauma so you can complete the loop.\"",
                   "provenance": "interpreted"
-                }
-              ],
-              "provenance": "verbatim",
-              "links": [
+                },
                 {
-                  "url": "https://en.wikipedia.org/wiki/Intergenerational_trauma",
-                  "label": "Wikipedia: Transgenerational trauma"
-                }
-              ]
-            },
-            {
-              "id": "structure-collective-freeze",
-              "title": "Collective 'freeze'",
-              "text": "A group that is overwhelmed shuts down and fails to act, like the freeze response in an individual. This is an analogy used for modelling, not an established finding.",
-              "color": "#F0F4C3",
-              "connections": [
-                {
-                  "targetId": "structure-dysfunctional-democracy",
-                  "evidence": "Arrow toward \"dysfunctional democracy\" within the same column.",
+                  "targetId": "time-unmet-past",
+                  "evidence": "Jonas, 2026-11-06: the polycrisis outcomes, \"like the climate crisis (or if we take a very clear plain thing, as sexual assaults), obviously cause unmet needs and they cause trauma so you can complete the loop.\"",
                   "provenance": "interpreted"
                 }
               ],
               "provenance": "verbatim"
             },
+            {
+              "id": "outcome-extinction-risk-tech",
+              "title": "Extinction risk from tech",
+              "text": "Technologies, such as engineered pathogens or advanced AI, that could end humanity's future.",
+              "color": "#FCE4EC",
+              "connections": [],
+              "provenance": "verbatim",
+              "links": [
+                {
+                  "url": "https://en.wikipedia.org/wiki/Global_catastrophic_risk",
+                  "label": "Wikipedia: Global catastrophic risk"
+                }
+              ]
+            },
+            {
+              "id": "outcome-climate-breakdown",
+              "title": "Climate breakdown",
+              "text": "A destabilised climate driven by greenhouse-gas emissions.",
+              "color": "#FCE4EC",
+              "connections": [
+                {
+                  "targetId": "time-unmet-present",
+                  "evidence": "Jonas, 2026-11-06: the polycrisis outcomes, \"like the climate crisis (or if we take a very clear plain thing, as sexual assaults), obviously cause unmet needs and they cause trauma so you can complete the loop.\"",
+                  "provenance": "verbatim"
+                },
+                {
+                  "targetId": "time-unmet-past",
+                  "evidence": "Jonas, 2026-11-06: the polycrisis outcomes, \"like the climate crisis (or if we take a very clear plain thing, as sexual assaults), obviously cause unmet needs and they cause trauma so you can complete the loop.\"",
+                  "provenance": "verbatim"
+                }
+              ],
+              "provenance": "verbatim",
+              "links": [
+                {
+                  "url": "https://en.wikipedia.org/wiki/Climate_change",
+                  "label": "Wikipedia: Climate change"
+                }
+              ]
+            },
+            {
+              "id": "outcome-meaning-crisis",
+              "title": "Meaning crisis",
+              "text": "A widespread loss of purpose, belonging and orientation. Vervaeke argues that it has deep cultural and historical roots and underlies other crises. (Vervaeke)",
+              "color": "#FCE4EC",
+              "connections": [],
+              "provenance": "verbatim",
+              "links": [
+                {
+                  "url": "https://www.johnvervaeke.com/",
+                  "label": "John Vervaeke: Awakening from the Meaning Crisis"
+                }
+              ]
+            },
+            {
+              "id": "outcome-pollution",
+              "title": "Pollution",
+              "text": "Waste and toxins released into air, water and soil.",
+              "color": "#FCE4EC",
+              "connections": [],
+              "provenance": "verbatim",
+              "links": [
+                {
+                  "url": "https://en.wikipedia.org/wiki/Pollution",
+                  "label": "Wikipedia: Pollution"
+                }
+              ]
+            },
+            {
+              "id": "outcome-resource-depletion",
+              "title": "Resource & hydrocarbon depletion",
+              "text": "Running down finite stocks, such as fossil fuels, that the economy depends on.",
+              "color": "#FCE4EC",
+              "connections": [],
+              "provenance": "verbatim",
+              "links": [
+                {
+                  "url": "https://en.wikipedia.org/wiki/Resource_depletion",
+                  "label": "Wikipedia: Resource depletion"
+                }
+              ]
+            },
+            {
+              "id": "outcome-ecocide",
+              "title": "Ecocide",
+              "text": "Destruction of ecosystems on a large scale.",
+              "color": "#FCE4EC",
+              "connections": [],
+              "provenance": "verbatim",
+              "links": [
+                {
+                  "url": "https://en.wikipedia.org/wiki/Ecocide",
+                  "label": "Wikipedia: Ecocide"
+                }
+              ]
+            },
+            {
+              "id": "outcome-sexual-assault",
+              "title": "Sexual assault",
+              "text": "Sexual violence: any sexual act, or attempt of one, committed against a person without their consent.",
+              "color": "#FCE4EC",
+              "connections": [
+                {
+                  "targetId": "time-unmet-present",
+                  "evidence": "Jonas, 2026-11-06: the polycrisis outcomes, \"like the climate crisis (or if we take a very clear plain thing, as sexual assaults), obviously cause unmet needs and they cause trauma so you can complete the loop.\"",
+                  "provenance": "verbatim"
+                },
+                {
+                  "targetId": "time-unmet-past",
+                  "evidence": "Jonas, 2026-11-06: the polycrisis outcomes, \"like the climate crisis (or if we take a very clear plain thing, as sexual assaults), obviously cause unmet needs and they cause trauma so you can complete the loop.\"",
+                  "provenance": "verbatim"
+                }
+              ],
+              "provenance": "verbatim",
+              "links": [
+                {
+                  "url": "https://en.wikipedia.org/wiki/Sexual_violence",
+                  "label": "Wikipedia: Sexual violence"
+                }
+              ]
+            },
+            {
+              "id": "structure-dysfunctional-democracy",
+              "title": "Dysfunctional democracy",
+              "text": "Democratic institutions that no longer turn what citizens want into workable decisions.",
+              "color": "#F0F4C3",
+              "connections": [],
+              "provenance": "verbatim"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Structures & Incentives",
+      "columns": [
+        {
+          "nodes": [
             {
               "id": "structure-populism-narrative-warfare",
               "title": "Populism, narrative warfare",
@@ -888,40 +1229,6 @@
               ]
             },
             {
-              "id": "structure-loss-of-community",
-              "title": "Loss of community",
-              "text": "Fewer lasting ties between people, with less mutual care and fewer shared places.",
-              "color": "#F0F4C3",
-              "connections": [
-                {
-                  "targetId": "outcome-meaning-crisis",
-                  "evidence": "Arrow toward \"meaning crisis\".",
-                  "provenance": "interpreted"
-                }
-              ],
-              "provenance": "verbatim",
-              "links": [
-                {
-                  "url": "https://en.wikipedia.org/wiki/Social_capital",
-                  "label": "Wikipedia: Social capital"
-                }
-              ]
-            },
-            {
-              "id": "structure-loss-of-spirituality",
-              "title": "Loss of spirituality",
-              "text": "The loss of shared practices that gave people meaning, awe and belonging. Vervaeke describes it as the loss of an \"ecology of practices\" that religion once supplied. (Vervaeke)",
-              "color": "#F0F4C3",
-              "connections": [
-                {
-                  "targetId": "outcome-meaning-crisis",
-                  "evidence": "Arrow toward \"meaning crisis\".",
-                  "provenance": "interpreted"
-                }
-              ],
-              "provenance": "verbatim"
-            },
-            {
               "id": "structure-marketing",
               "title": "Marketing",
               "text": "Deliberately triggering and shaping desire in order to raise consumption.",
@@ -964,130 +1271,8 @@
             }
           ]
         }
-      ]
-    },
-    {
-      "title": "Polycrisis outcomes (civilizational health)",
-      "columns": [
-        {
-          "nodes": [
-            {
-              "id": "outcome-great-power-war",
-              "title": "Great power war / violence / genocide",
-              "text": "Direct war between major powers, with the violence and genocide that accompany it.",
-              "color": "#FCE4EC",
-              "connections": [],
-              "provenance": "verbatim"
-            },
-            {
-              "id": "outcome-extinction-risk-tech",
-              "title": "Extinction risk from tech",
-              "text": "Technologies, such as engineered pathogens or advanced AI, that could end humanity's future.",
-              "color": "#FCE4EC",
-              "connections": [],
-              "provenance": "verbatim",
-              "links": [
-                {
-                  "url": "https://en.wikipedia.org/wiki/Global_catastrophic_risk",
-                  "label": "Wikipedia: Global catastrophic risk"
-                }
-              ]
-            },
-            {
-              "id": "outcome-climate-breakdown",
-              "title": "Climate breakdown",
-              "text": "A destabilised climate driven by greenhouse-gas emissions.",
-              "color": "#FCE4EC",
-              "connections": [],
-              "provenance": "verbatim",
-              "links": [
-                {
-                  "url": "https://en.wikipedia.org/wiki/Climate_change",
-                  "label": "Wikipedia: Climate change"
-                }
-              ]
-            },
-            {
-              "id": "outcome-meaning-crisis",
-              "title": "Meaning crisis",
-              "text": "A widespread loss of purpose, belonging and orientation. Vervaeke argues that it has deep cultural and historical roots and underlies other crises. (Vervaeke)",
-              "color": "#FCE4EC",
-              "connections": [],
-              "provenance": "verbatim",
-              "links": [
-                {
-                  "url": "https://www.johnvervaeke.com/",
-                  "label": "John Vervaeke: Awakening from the Meaning Crisis"
-                }
-              ]
-            },
-            {
-              "id": "outcome-pollution",
-              "title": "Pollution",
-              "text": "Waste and toxins released into air, water and soil.",
-              "color": "#FCE4EC",
-              "connections": [],
-              "provenance": "verbatim",
-              "links": [
-                {
-                  "url": "https://en.wikipedia.org/wiki/Pollution",
-                  "label": "Wikipedia: Pollution"
-                }
-              ]
-            },
-            {
-              "id": "outcome-resource-depletion",
-              "title": "Resource & hydrocarbon depletion",
-              "text": "Running down finite stocks, such as fossil fuels, that the economy depends on.",
-              "color": "#FCE4EC",
-              "connections": [],
-              "provenance": "verbatim",
-              "links": [
-                {
-                  "url": "https://en.wikipedia.org/wiki/Resource_depletion",
-                  "label": "Wikipedia: Resource depletion"
-                }
-              ]
-            },
-            {
-              "id": "outcome-ecocide",
-              "title": "Ecocide",
-              "text": "Destruction of ecosystems on a large scale.",
-              "color": "#FCE4EC",
-              "connections": [],
-              "provenance": "verbatim",
-              "links": [
-                {
-                  "url": "https://en.wikipedia.org/wiki/Ecocide",
-                  "label": "Wikipedia: Ecocide"
-                }
-              ]
-            },
-            {
-              "id": "outcome-sexual-assault",
-              "title": "Sexual assault",
-              "text": "Sexual violence: any sexual act, or attempt of one, committed against a person without their consent.",
-              "color": "#FCE4EC",
-              "connections": [],
-              "provenance": "verbatim",
-              "links": [
-                {
-                  "url": "https://en.wikipedia.org/wiki/Sexual_violence",
-                  "label": "Wikipedia: Sexual violence"
-                }
-              ]
-            },
-            {
-              "id": "structure-dysfunctional-democracy",
-              "title": "Dysfunctional democracy",
-              "text": "Democratic institutions that no longer turn what citizens want into workable decisions.",
-              "color": "#F0F4C3",
-              "connections": [],
-              "provenance": "verbatim"
-            }
-          ]
-        }
-      ]
+      ],
+      "display": "band"
     },
     {
       "title": "Marginal Notes",
@@ -1121,7 +1306,8 @@
     ],
     "v2Changes": [
       "2026-10-31: v2 fidelity pass against the whiteboard photo; approved by Jonas 2026-10-31. See inbox note.",
-      "2026-10-31, Jonas: the NARM 'Connection' card became the group holding Thinking and Spiritualizing; Dysfunctional democracy moved to Polycrisis outcomes"
+      "2026-10-31, Jonas: the NARM 'Connection' card became the group holding Thinking and Spiritualizing; Dysfunctional democracy moved to Polycrisis outcomes",
+      "2026-11-06, Jonas: new first stage 'Why needs are unmet' (unmet in the present / in the past, linking into every need, labelled Wichtigkeit / Dringlichkeit); climate breakdown, sexual assault and war link back to both; Structures & Incentives leaves the middle (proposal for Jonas's sign-off: war trauma and collective freeze to the past stage, loss of community and spirituality beside the needs, the rest to a band under the map)"
     ]
   },
   "schemaVersion": 1,
