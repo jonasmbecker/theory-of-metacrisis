@@ -1,0 +1,12 @@
+{
+  "default": "jonas",
+  "theories": [
+    {
+      "slug": "jonas",
+      "title": "Jonas Becker's theory",
+      "status": "author",
+      "layout": "stages",
+      "statusNote": "Written by Jonas Becker, who maintains this map. Suggestions welcome."
+    }
+  ]
+}

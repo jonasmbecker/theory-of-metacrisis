@@ -45,7 +45,7 @@ Jonas Becker (@jonasmbecker) is the only maintainer at launch and makes the fina
 
 ## Using GitHub directly
 
-Edit `map/content.json` for changes to the theory and open a pull request (GitHub's name for a suggested change). Leave `map/layout.json` alone unless you are moving cards. If you can, run `node scripts/validate-map.mjs` before you submit; the same check also runs by itself on every pull request. Do not change file names or the order of fields.
+Edit `theories/<name>/content.json` (for Jonas's theory, `theories/jonas/content.json`) for changes to the theory and open a pull request (GitHub's name for a suggested change). Leave `layout.json` alone unless you are moving cards. If you can, run `node scripts/validate-map.mjs` before you submit; the same check also runs by itself on every pull request. Do not change file names or the order of fields.
 
 ## Being kind
 
