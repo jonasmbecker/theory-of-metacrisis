@@ -2,7 +2,7 @@
 // the index itself, and the legacy map/ copy while it is still kept for old links.
 // No dependencies: run with `node scripts/validate-map.mjs`.
 // Mirrors the rules of the ToC editor's schema (jonasmbecker/toc-editor, src/model/schema.ts).
-import { existsSync, readFileSync } from 'node:fs'
+import { existsSync, lstatSync, readdirSync, readFileSync } from 'node:fs'
 
 const errors = []
 const fail = (message) => errors.push(message)
@@ -20,7 +20,8 @@ function load(path) {
 
 const HEX = /^#[0-9a-fA-F]{6}$/
 const WEB_URL = /^https?:\/\/\S+$/i
-const SLUG = /^[a-z0-9]+(-[a-z0-9]+)*$/
+// Lower-case words joined by single hyphens, at most 64 characters (the editor's own rule).
+const SLUG = /^(?=.{1,64}$)[a-z0-9]+(-[a-z0-9]+)*$/
 const STATUSES = ['author', 'reconstructed']
 const LAYOUTS = ['stages', 'free']
 const isObject = (v) => typeof v === 'object' && v !== null && !Array.isArray(v)
@@ -123,8 +124,12 @@ function checkIndex() {
   const slugs = new Set()
   for (const [i, theory] of index.theories.entries()) {
     const name = `${path}: theory ${i + 1}`
+    if (!isObject(theory)) {
+      fail(`${name}: must be an object with a slug, title, status and layout`)
+      continue
+    }
     if (!isString(theory.slug) || !SLUG.test(theory.slug)) {
-      fail(`${name}: "slug" must be lowercase letters, digits and dashes`)
+      fail(`${name}: "slug" must be lowercase letters, digits and dashes, at most 64 characters`)
       continue
     }
     if (slugs.has(theory.slug)) fail(`${name}: slug "${theory.slug}" is used twice`)
@@ -139,6 +144,20 @@ function checkIndex() {
   if (!slugs.has(index.default)) fail(`${path}: "default" must be the slug of a listed theory`)
   return [...slugs]
 }
+
+// A symbolic link would let one theory's folder stand for another's (the suggestion bot reads
+// and writes through it), so the theory folders hold plain files and folders only.
+function checkNoLinks(dir) {
+  if (!existsSync(dir)) return
+  for (const entry of readdirSync(dir)) {
+    const path = `${dir}/${entry}`
+    const stat = lstatSync(path)
+    if (stat.isSymbolicLink()) fail(`${path}: symbolic links are not allowed`)
+    else if (stat.isDirectory()) checkNoLinks(path)
+  }
+}
+checkNoLinks('theories')
+checkNoLinks('map')
 
 for (const slug of checkIndex()) checkMap(`theories/${slug}`)
 // The old single map stays for one release so earlier links keep working.
