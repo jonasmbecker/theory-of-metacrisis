@@ -1311,6 +1311,6 @@
     ]
   },
   "schemaVersion": 1,
-  "interventionLinks": [],
-  "diagramType": "status-quo"
+  "diagramType": "status-quo",
+  "interventionLinks": []
 }
