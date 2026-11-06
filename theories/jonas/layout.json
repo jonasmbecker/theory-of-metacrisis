@@ -2,19 +2,19 @@
   "cards": {
     "annotation-mate-health-crisis": {
       "width": 330,
-      "yPosition": 200
+      "yPosition": 176
     },
     "driver-arms-race": {
       "width": 300,
-      "yPosition": 792
+      "yPosition": 1272
     },
     "driver-collective-disempowerment": {
       "width": 300,
-      "yPosition": 120
+      "yPosition": 136
     },
     "driver-consumerism": {
       "width": 300,
-      "yPosition": 992
+      "yPosition": 1504
     },
     "driver-erosion-sensemaking": {
       "width": 300,
@@ -22,215 +22,223 @@
     },
     "driver-extractivism": {
       "width": 300,
-      "yPosition": 1344
+      "yPosition": 1712
     },
     "driver-hyper-agents-ai": {
       "width": 300,
-      "yPosition": 1472
+      "yPosition": 1800
     },
     "driver-individualism": {
       "width": 300,
-      "yPosition": 1112
+      "yPosition": 1576
     },
     "driver-lacking-willingness-change": {
       "width": 300,
-      "yPosition": 368
+      "yPosition": 384
     },
     "driver-neoliberal-capitalism": {
       "width": 300,
-      "yPosition": 1224
+      "yPosition": 1640
     },
     "driver-patriarchy-sexism": {
       "width": 300,
-      "yPosition": 1600
+      "yPosition": 1360
     },
     "driver-race-to-bottom": {
       "width": 300,
-      "yPosition": 560
+      "yPosition": 1136
     },
     "driver-race-to-market": {
       "width": 300,
-      "yPosition": 680
+      "yPosition": 1208
     },
     "driver-racism-colonialism": {
       "width": 300,
-      "yPosition": 248
+      "yPosition": 640
     },
     "group-connection-substrategies": {
       "width": 232,
-      "yPosition": 216
+      "yPosition": 880
     },
     "group-consumerism": {
       "width": 300,
-      "yPosition": 992
+      "yPosition": 1504
     },
     "group-multipolar-traps": {
       "width": 300,
-      "yPosition": 560
+      "yPosition": 1136
     },
     "need-brown-attunement": {
       "width": 232,
-      "yPosition": 520
+      "yPosition": 696
     },
     "need-brown-comfort-soothing": {
       "width": 232,
-      "yPosition": 640
+      "yPosition": 904
     },
     "need-brown-expressed-delight": {
       "width": 232,
-      "yPosition": 1432
+      "yPosition": 1120
     },
     "need-brown-felt-safety": {
       "width": 232,
-      "yPosition": 152
+      "yPosition": 408
     },
     "need-brown-support-explore": {
       "width": 232,
-      "yPosition": 904
+      "yPosition": 1016
     },
     "need-narm-attunement": {
       "width": 232,
-      "yPosition": 520
+      "yPosition": 1040
     },
     "need-narm-autonomy": {
       "width": 232,
-      "yPosition": 904
+      "yPosition": 1192
     },
     "need-narm-love-sexuality": {
       "width": 232,
-      "yPosition": 1448
+      "yPosition": 1360
     },
     "need-narm-spiritualizing": {
       "width": 232,
-      "yPosition": 216
+      "yPosition": 880
     },
     "need-narm-thinking": {
       "width": 232,
-      "yPosition": 336
+      "yPosition": 952
     },
     "need-narm-trust": {
       "width": 232,
-      "yPosition": 640
+      "yPosition": 1112
     },
     "outcome-climate-breakdown": {
       "width": 300,
-      "yPosition": 680
+      "yPosition": 568
     },
     "outcome-ecocide": {
       "width": 300,
-      "yPosition": 1184
+      "yPosition": 800
     },
     "outcome-extinction-risk-tech": {
       "width": 300,
-      "yPosition": 448
+      "yPosition": 56
     },
     "outcome-great-power-war": {
       "width": 300,
-      "yPosition": 200
+      "yPosition": 464
     },
     "outcome-meaning-crisis": {
       "width": 300,
-      "yPosition": 1056
+      "yPosition": 728
     },
     "outcome-pollution": {
       "width": 300,
-      "yPosition": 808
+      "yPosition": 880
     },
     "outcome-resource-depletion": {
       "width": 300,
-      "yPosition": 928
+      "yPosition": 960
     },
     "outcome-sexual-assault": {
       "width": 300,
-      "yPosition": 1600
+      "yPosition": 648
     },
     "strategy-compulsive-soothing": {
       "width": 330,
-      "yPosition": 704
+      "yPosition": 1208
     },
     "strategy-control-supremacy": {
       "width": 330,
-      "yPosition": 336
+      "yPosition": 384
     },
     "strategy-craving-power": {
       "width": 330,
-      "yPosition": 584
+      "yPosition": 1032
     },
     "strategy-craving-seen": {
       "width": 330,
-      "yPosition": 456
+      "yPosition": 208
     },
     "strategy-fear-dependence-separation": {
       "width": 330,
-      "yPosition": 976
+      "yPosition": 1392
     },
     "strategy-greed-more": {
       "width": 330,
-      "yPosition": 856
+      "yPosition": 1280
     },
     "strategy-hunting-sexual-attraction": {
       "width": 330,
-      "yPosition": 1600
+      "yPosition": 1528
     },
     "strategy-narcissism": {
       "width": 330,
-      "yPosition": 1480
+      "yPosition": 1640
     },
     "strategy-numbing": {
       "width": 330,
-      "yPosition": 88
+      "yPosition": 136
     },
     "strategy-perform-worth": {
       "width": 330,
-      "yPosition": 1352
+      "yPosition": 1720
     },
     "strategy-scapegoating": {
       "width": 330,
-      "yPosition": 208
+      "yPosition": 640
     },
     "structure-collective-freeze": {
       "width": 260,
-      "yPosition": 120
+      "yPosition": 104
     },
     "structure-debt-interest-financial-system": {
       "width": 260,
-      "yPosition": 544
+      "yPosition": 2472
     },
     "structure-dysfunctional-democracy": {
       "width": 260,
-      "yPosition": 328
+      "yPosition": 160
     },
     "structure-embedded-growth-obligation": {
       "width": 260,
-      "yPosition": 712
+      "yPosition": 2472
     },
     "structure-intergenerational-war-trauma": {
       "width": 260,
-      "yPosition": 0
+      "yPosition": 304
     },
     "structure-lack-of-wisdom": {
       "width": 260,
-      "yPosition": 424
+      "yPosition": 2472
     },
     "structure-loss-of-community": {
       "width": 260,
-      "yPosition": 1112
+      "yPosition": 1040
     },
     "structure-loss-of-spirituality": {
       "width": 260,
-      "yPosition": 1232
+      "yPosition": 1224
     },
     "structure-marketing": {
       "width": 260,
-      "yPosition": 1360
+      "yPosition": 2472
     },
     "structure-populism-narrative-warfare": {
       "width": 260,
-      "yPosition": 248
+      "yPosition": 2472
     },
     "structure-power-politics": {
       "width": 260,
-      "yPosition": 984
+      "yPosition": 2472
+    },
+    "time-unmet-past": {
+      "width": 260,
+      "yPosition": 624
+    },
+    "time-unmet-present": {
+      "width": 260,
+      "yPosition": 520
     }
   },
   "textSize": 1,
