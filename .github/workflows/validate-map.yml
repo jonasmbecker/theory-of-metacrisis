@@ -16,5 +16,5 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Validate map/content.json and map/layout.json
+      - name: Validate theories/index.json and every theory it lists
         run: node scripts/validate-map.mjs

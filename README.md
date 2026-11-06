@@ -12,14 +12,16 @@ Open it in the editor: **https://toceditor.netlify.app** (no account needed). Yo
 
 ## Suggest a change
 
-If you use GitHub, edit `map/content.json` and open a pull request. Please read [CONTRIBUTING.md](CONTRIBUTING.md) first; it is short and written for non-technical readers. A "Suggest a change" button in the editor, which needs no GitHub account, is planned.
+Press **Suggest a change** in the editor: it needs no GitHub account and opens a pull request for you. If you use GitHub, you can also edit a theory's `content.json` under `theories/` and open a pull request. Please read [CONTRIBUTING.md](CONTRIBUTING.md) first; it is short and written for non-technical readers.
 
 ## What is in this repository
 
 | Path | What it holds |
 | --- | --- |
-| `map/content.json` | Everything about the theory: cards, descriptions, arrows, reasoning, evidence, groups |
-| `map/layout.json` | Only where cards sit on the screen, so moving a card never hides a change to the theory |
+| `theories/index.json` | Which theories exist, which one opens first, and whether each is its author's own or a reconstruction |
+| `theories/<name>/content.json` | Everything about one theory: cards, descriptions, arrows, reasoning, evidence, groups |
+| `theories/<name>/layout.json` | Only where cards sit on the screen, so moving a card never hides a change to the theory |
+| `map/` | The old location of Jonas's theory, kept for one release so earlier links keep working; edit `theories/jonas/` instead |
 | `scripts/validate-map.mjs` | The automatic check that runs on every proposal |
 | `CONTRIBUTING.md` | How to write a good suggestion, and who decides |
 
